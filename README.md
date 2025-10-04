@@ -89,7 +89,7 @@ Version Control: Git & GitHub
 ![About](./Assetes/aboutFounder.png)
 
 ### Support page
-![support page](./Assetes/supportpage.PNG.png)
+![support page](./Assetes/supportpage.png)
 
 
 ## Future Enhancements
