@@ -74,22 +74,25 @@ Version Control: Git & GitHub
 ## Screenshots
 
 ### Homepage
-![Homepage](./Assetes/homepage.png)
+![Homepage](./Assetes/homepage.PNG)
 
 ### Dashboard
-![Dashboard](./Assetes/dashboard.png)
+![Dashboard](./Assetes/dashboard.PNG)
 
 ### Login
-![Login](./Assetes/login.png)
+![Login](./Assetes/login.PNG)
 
 ### Singup
-![singup](./Assetes/signup.png)
+![singup](./Assetes/signup.PNG)
 
 ### About page
-![About](./Assetes/aboutFounder.png)
+![About](./Assetes/aboutFounder.PNG)
 
 ### Support page
-![support page](./Assetes/supportpage.png)
+![support page](./Assetes/supportpage.PNG)
+
+### holdings
+![holdings](./Assetes/Holdings.PNG)
 
 
 ## Future Enhancements
