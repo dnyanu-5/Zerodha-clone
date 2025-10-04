@@ -20,6 +20,16 @@ const app = express();
 
 app.use(bodyParser.json());
 
+app.use(
+  cors({
+    origin: ["http://localhost:5173"],  // frontend origin here
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
+
+
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
 //     {
@@ -218,24 +228,12 @@ app.post("/newOrder", async (req, res) => {
 //   })
 // );
 
-app.use(
-  cors({
-    origin: ["http://localhost:5173"],  // frontend origin here
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
-
-
-
 
 app.use(cookieParser());
 
 app.use(express.json());
 
 app.use("/", authRoute);
-
-
 
 app.listen(PORT, () => {
   console.log("App started!");
