@@ -38,6 +38,7 @@ app.use(
     credentials: true,
   })
 );
+app.options("*", cors());
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
 //     {
