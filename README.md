@@ -95,6 +95,13 @@ Version Control: Git & GitHub
 ![holdings](./Assetes/Holdings.PNG)
 
 
+## Live Project Links
+
+- [Frontend](https://zerodha-clone-frontend-09mo.onrender.com) — Main user interface
+- [Dashboard](https://zerodha-clone-dashboard-o2li.onrender.com) — Trading dashboard
+- [Backend API](https://zerodha-clone-backend-oj6q.onrender.com) — API service
+
+
 ## Future Enhancements
 
 - Integration with a real-time stock data API.
