@@ -16,7 +16,7 @@ const Homee = () => {
         return;
       }
       const { data } = await axios.post(
-        "http://localhost:3002",
+        "https://zerodha-clone-backend-oj6q.onrender.com",
         {},
         { withCredentials: true }
       );
