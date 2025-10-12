@@ -18,7 +18,7 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 
 // app.use(
 //   cors({
@@ -38,14 +38,6 @@ app.use(
     credentials: true,
   })
 );
-
-
-
-
-
-
-
-
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
 //     {
