@@ -20,13 +20,29 @@ const app = express();
 
 app.use(bodyParser.json());
 
+// app.use(
+//   cors({
+//     origin: ["http://localhost:5173"],  // frontend origin here
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true,
+//   })
+// );
+
 app.use(
   cors({
-    origin: ["http://localhost:5173"],  // frontend origin here
+    origin: [
+      "https://zerodha-clone-frontend-09mo.onrender.com",
+      "https://zerodha-clone-dashboard-o2li.onrender.com"
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
+
+
+
+
+
 
 
 
