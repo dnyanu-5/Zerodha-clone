@@ -39,6 +39,13 @@ app.use(
   })
 );
 app.options("*", cors());
+
+app.use(express.json());
+app.use(cookieParser());
+
+app.use("/", authRoute);
+
+
 // app.get("/addHoldings", async (req, res) => {
 //   let tempHoldings = [
 //     {
@@ -236,13 +243,6 @@ app.post("/newOrder", async (req, res) => {
 //     credentials: true,
 //   })
 // );
-
-
-app.use(cookieParser());
-
-app.use(express.json());
-
-app.use("/", authRoute);
 
 app.listen(PORT, () => {
   console.log("App started!");
